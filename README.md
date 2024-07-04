@@ -1,4 +1,25 @@
 # Playwright_Automation
+TASK:
+Please use Playwright w/Typescript and make tests run parallelly.
+So, we have left the cases open-ended for you.
+1. Login: Visit amazon.in and login into site. Run login as first test and only once, if it fails rest
+of the tests should not even start.
+2. Search: search for the term “shoes”, you would need to verify that the values on the search
+page are actually searched for shoes.
+3. Applying Filters: You need to apply at least two filters and make sure that these filters are
+applied and the results are being filtered logically.
+4. Product Details page: Once you have identified the above two workflows, make sure to
+validate the details of a particular product and then add it to the cart.
+
+
+
+Run the tests using the commands on individual test scripts:
+npx playwright test ./tests/search.test.ts 
+npx playwright test ./tests/filters.test.ts 
+npx playwright test ./tests/product-details.test.ts 
+
+To Run All Tests in a Single GO:
+npx playwright test
 
 ### 1. filters.test.ts 
 **Purpose:**
