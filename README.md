@@ -13,13 +13,16 @@ validate the details of a particular product and then add it to the cart.
 
 
 
-Run the tests using the commands on individual test scripts:
-npx playwright test ./tests/search.test.ts 
-npx playwright test ./tests/filters.test.ts 
-npx playwright test ./tests/product-details.test.ts 
+Run the tests using the commands on **individual test** scripts:
+**npx playwright test ./tests/search.test.ts** 
 
-To Run All Tests in a Single GO:
-npx playwright test
+**npx playwright test ./tests/filters.test.ts** 
+
+**npx playwright test ./tests/product-details.test.ts** 
+
+To Run All Tests in a **Single GO:**
+
+**npx playwright test**
 
 ### 1. filters.test.ts 
 **Purpose:**
